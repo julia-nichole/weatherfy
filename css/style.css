@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-shadow: 1px 1px 1px gray;
+}
+header, footer {
+    display: flex;
+    align-items: center;
+    background-color: #1b5b64;
+    width: 100%;
+    color: white;
+    height: 65px;
+}
+header {
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+footer {
+    justify-content: center;
+}
+main {
+    flex-grow: 1;
+}
